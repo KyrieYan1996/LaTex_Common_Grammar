@@ -81,4 +81,43 @@
         \end{equation}
         And it's easy to prove that t=d because of equation(\ref{e1})
 ![equation_reference](/img/equation_ref.png)
+### 4.Fundamental Operation
+        1.multiply:
+        \begin{equation*}
+             a = b \times b
+        \end{equation*}
+        2.fraction:
+        \begin{equation*}
+             a = b \times \frac{1}{c}
+             a = b \times (\frac{1}{c}+d)
+             a = b \times \left(\frac{1}{c}+d\right)
+        \end{equation*}  
+        3.multilines_format1：
+        \section{Equation}
+        \begin{gather*}
+        a = b \times (\frac{1}{c}+d) \\
+        a = b \times \left(\frac{1}{c}+d\right)
+        \end{gather*}
+        4.multilines_format2:
+        \begin{equation*}
+        \begin{split}
+                a &= b \times (\frac{1}{c}+d) \\
+                aaa &= b \times \left(\frac{1}{c}+d\right)
+        \end{split}
+        \end{equation*}
+        % &= To align by =.
+![multilines formula](/img/operation.png)
+
+        5.multicolumns_align:
+        \begin{align*}
+        &a = b    
+        &&c = d\\
+        &e=f
+        &&h=g
+        \end{align*}
+![align_multicols](/img/align_multicols.png)
+
+        6.norm:
+        \left \| Q \right \|_{2,0}
+![norm](/img/norm.png)
             
